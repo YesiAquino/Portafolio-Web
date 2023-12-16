@@ -683,6 +683,10 @@ footer .arriba{
     .sobremi .fila .col{
         width: fit-content;
     }
+    .sobremi .fila .col .contenedor-intereses .interes{
+        width: 80px;
+        height: 80px;
+    }
     .skills .fila{
         display: block;
     }

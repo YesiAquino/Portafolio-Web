@@ -185,14 +185,16 @@ html{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #131517;
-    width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
-    font-size: 16px;
-    color: #131517;
     position: relative;
     z-index: 10;
+}
+.sobremi button a{
+    text-decoration: none;
+    color: #131517;
+    font-size: 16px;
 }
 .sobremi button .overlay{
     position: absolute;
@@ -615,31 +617,12 @@ footer{
     background-color: #b9abc4;
     color: #131517;
     padding: 50px 0 30px 0;
-    text-align: center;
     position: relative;
     width: 100%;
 }
-footer .redes{
-    margin-bottom: 20px;
-}
-footer .redes a{
-    color: #131517;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #131517;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-    transition: .3s;
-}
-footer .redes a:hover{
-    background-color: #79548a;
-}
-footer .arriba{
+/* footer .arriba{
     display: block;
+    text-align: center;
     width: 50px;
     height: 50px;
     background-color: #785494;
@@ -651,7 +634,56 @@ footer .arriba{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+} */
+footer .arriba {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background-color: #785494;
+    color: #131517;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 50px; 
 }
+
+footer .pie{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer .pie .contact{
+    text-align: center;
+    padding: 0 90px;
+}
+footer .pie .contact .red{
+    font-weight: bold;
+}
+footer .pie .contact .red i{
+    margin-right: 5px;
+    color:#785494
+}
+footer .pie .contact .dato{
+    font-size: 13px;
+}
+footer .redes a{
+    color: #131517;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #131517;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 5px;
+    font-size: 15px;
+    transition: .3s;
+}
+footer .redes a:hover{
+    background-color: #79548a;
+}
+
 /* SECCION RESPONSIVE*/
 @media screen and (max-width:980px){
     nav{
@@ -684,9 +716,11 @@ footer .arriba{
         width: fit-content;
     }
     .sobremi .fila .col .contenedor-intereses .interes{
-        width: 95px;
-        height: 95px;
+        width: 90px;
+        height: 90px;
     }
+
+
     .skills .fila{
         display: block;
     }
@@ -722,4 +756,9 @@ footer .arriba{
         display: block;
         width: 70%;
     }   
+
+    footer .pie{
+        display: block;
+        width: 100%;
+    }
 }

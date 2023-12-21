@@ -401,7 +401,18 @@ html{
     background-color: #b9abc4;
     position: relative;
 }
+.curriculum .fila .proyecto{ /**/
+    padding: 25px;
+    margin-top: 30px;
+    background-color: #b9abc4;
+    position: relative;
+    width: fit-content;
+}
 .curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .proyecto h4{ /**/
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -423,12 +434,12 @@ html{
     border-right: 2px solid #78568c;
     margin-right: 20px;
 }
-.curriculum .fila .der{
+.curriculum .fila .proyecto{ /**/
     border-left: 2px solid #78568c;
     margin-left: 20px;
 }
-.curriculum .fila .derecha .der .img{
-    width: 50px;
+.curriculum .fila .proyecto img{
+    width: 400px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
@@ -449,7 +460,7 @@ html{
     position: relative;
     bottom: 4px;
 }
-.curriculum .fila .item .conectord{
+.curriculum .fila .proyecto .conectord{ /**/
     height: 2px;
     background-color: #785494;
     width: 47px;
@@ -458,7 +469,7 @@ html{
     left: -47px;
     z-index: 5;
 }
-.curriculum .fila .item .conectord .circulod{
+.curriculum .fila .proyecto .conectord .circulod{ /**/
     display: block;
     height: 10px;
     width: 10px;
@@ -468,7 +479,6 @@ html{
     position: relative;
     bottom: 4px;
 }
-
 /* SECCION CERTIFICACIONES*/
 .certificaciones{
     background-color: #79548a;

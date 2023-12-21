@@ -269,49 +269,49 @@ html{
     font-size: 14px;
 }
 /*Estas clases se agregaran dinamicamente mediantes javascript*/
+.skills .skill .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+@keyframes html {
+    0%{width: 0%;}
+    100%{width: 80%;}    
+}
+
+.skills .skill .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes css {
+    0%{width: 0%;}
+    100%{width: 50%;}    
+}
+
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}    
+    100%{width: 35%;}    
 }
 
-.skills .skill .htmlcss{
+.skills .skill .react{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s react forwards;
 }
-@keyframes htmlcss {
+@keyframes react {
     0%{width: 0%;}
-    100%{width: 89%;}    
+    100%{width: 20%;}    
 }
 
-.skills .skill .photoshop{
+.skills .skill .php{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s php forwards;
 }
-@keyframes photoshop {
+@keyframes php {
     0%{width: 0%;}
-    100%{width: 95%;}    
-}
-
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}    
-}
-
-.skills .skill .drupa{
-    width: 0%;
-    animation: 2s drupa forwards;
-}
-@keyframes drupa {
-    0%{width: 0%;}
-    100%{width: 55%;}    
+    100%{width: 20%;}    
 }
 
 .skills .skill .comunicacion{
@@ -338,25 +338,25 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}    
+    100%{width: 85%;}    
 }
 
-.skills .skill .dedicacion{
+.skills .skill .responsabilidad{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s responsabilidad forwards;
 }
-@keyframes dedicacion {
+@keyframes responsabilidad {
     0%{width: 0%;}
-    100%{width: 65%;}    
+    100%{width: 90%;}    
 }
 
-.skills .skill .proyect{
+.skills .skill .aprendizaje{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s aprendizaje forwards;
 }
-@keyframes proyect {
+@keyframes aprendizaje {
     0%{width: 0%;}
-    100%{width: 94%;}    
+    100%{width: 75%;}    
 }
 
 /*SECCION CURRICULUM*/
@@ -380,7 +380,7 @@ html{
     justify-content: space-between;
 }
 .curriculum .fila .col{
-    width: 49%;
+    width: 45%;
     padding: 0 20px;
 
 }
@@ -426,6 +426,9 @@ html{
 .curriculum .fila .der{
     border-left: 2px solid #78568c;
     margin-left: 20px;
+}
+.curriculum .fila .derecha .der .img{
+    width: 50px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
@@ -620,21 +623,6 @@ footer{
     position: relative;
     width: 100%;
 }
-/* footer .arriba{
-    display: block;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    background-color: #785494;
-    color: #131517;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -25px;
-    border-radius: 50%;
-    line-height: 50px;
-    font-size: 18px;
-} */
 footer .arriba {
     display: block;
     text-align: center;

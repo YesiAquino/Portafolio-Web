@@ -310,21 +310,24 @@
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
+        <form action="https://formsubmit.co/yesiaquino95@gmail.com" method="post">
             <h2>CONTACTO</h2>
                 <!-- Formulario -->
-                <div class="formulario">
-                    <input type="text" placeholder="Tu nombre">
-                    <input type="text" placeholder="Número de Teléfono">
-                    <input type="text" placeholder="Correo Electrónico">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <div class="formulario" >
+                    <input type="text" name="nombre" placeholder="Tu nombre">
+                    <input type="text" name="número de teléfono" placeholder="Número de Teléfono">
+                    <input type="text" name="mail" placeholder="Correo Electrónico">
+                    <input type="text" name="tema" placeholder="Tema">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <button>
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
+
+                    <input type="hidden" name="-next" value="https://yesiaquino.github.io/Portafolio-Web/">
+                    <input type="hidden" name="_captcha" value="false">
                 </div>
-        </div>
+    </form>
     </section>
 
     <!-- FOOTER -->

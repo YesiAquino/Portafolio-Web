@@ -293,7 +293,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 35%;}    
+    100%{width: 65%;}    
 }
 
 .skills .skill .react{
@@ -302,7 +302,7 @@ html{
 }
 @keyframes react {
     0%{width: 0%;}
-    100%{width: 20%;}    
+    100%{width: 25%;}    
 }
 
 .skills .skill .php{
@@ -311,7 +311,7 @@ html{
 }
 @keyframes php {
     0%{width: 0%;}
-    100%{width: 20%;}    
+    100%{width: 40%;}    
 }
 
 .skills .skill .comunicacion{

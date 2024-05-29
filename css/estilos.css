@@ -13,7 +13,7 @@ html{
 /* MENU */
 
 .contenedor-header{
-    background: #e8ccf4 ;
+    background: #956f58 ;
     position: fixed;
     width: 100%;
     top: 0;
@@ -31,7 +31,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Abril Fatface';
     font-size: 36px;
-    color: #79548a;
+    color: #4a3930;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -47,10 +47,10 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #79548a;
+    color: #4a3930;
 }
 .nav-responsive{
-    background-color: #79548a;
+    background-color: #4a3930;
     color: #131517;
     padding: 5px 10px;
     border-radius: 5px;
@@ -61,7 +61,7 @@ html{
 /* SECCION INICIO */
 
 .inicio{
-    background: linear-gradient(to top, rgba(121,84,138,.4), rgba(121,84,138,1)), url(img/fondo.jpg);
+    background: url(../img/fondo.jpg);
     background-size: cover;
     height: 100vh;
     color: #131517;
@@ -70,7 +70,7 @@ html{
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #e8ccf4;
+    background-color: #956f58;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -78,7 +78,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 50px;
-    border: 10px solid #79548a;
+    border: 10px solid #4a3930;
     display: block;
     width: 70%;
     margin: auto;
@@ -107,13 +107,13 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #79548a;
+    background-color: #4a3930;
 }
 
 /* SECCION SOBRE MI */
 
 .sobremi{
-    background-color: #e8ccf4;
+    background-color: #956f58;
     color: #131517;
     padding: 50px 20px;
 }
@@ -133,7 +133,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #785494;
+    color: #4a3930;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -155,7 +155,7 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #785494;
+    color: #4a3930;
     width: 130px;
 }
 .sobremi .fila .col .contenedor-intereses{
@@ -165,7 +165,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #78568c;
+    background-color: #dbbfaa;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -175,7 +175,7 @@ html{
     transition: .3s;
 }
 .sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #785494;
+    background-color: #4a3930;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -202,7 +202,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #785494;
+    background-color: #4a3930;
     z-index: -1;
     transition: 1s;
 }
@@ -211,7 +211,7 @@ html{
 }
 /* SECCION SKILLS*/
 .skills{
-    background-color: #78568c;
+    background-color: #f6f0e4;
     color: #131517;
     padding: 50px 20px;
 }
@@ -250,7 +250,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #b9abc4;
+    background-color: #dbbfaa;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +260,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #b9abc4;
+    background-color: #dbbfaa;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -361,7 +361,7 @@ html{
 
 /*SECCION CURRICULUM*/
 .curriculum{
-    background-color: #e8ccf4;
+    background-color: #956f58;
     color: #131517;
     padding: 50px 20px;
 }
@@ -390,21 +390,21 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #78568c;
+    border-right: 2px solid #4a3930;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #78568c;
+    border-left: 2px solid #4a3930;
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-top: 30px;
-    background-color: #b9abc4;
+    background-color: #dbbfaa;
     position: relative;
 }
 .curriculum .fila .proyecto{ /**/
     padding: 25px;
     margin-top: 30px;
-    background-color: #b9abc4;
+    background-color: #dbbfaa;
     position: relative;
     width: fit-content;
 }
@@ -417,25 +417,25 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #78568c;
+    color: #4a3930;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #78568c;
+    color: #4a3930;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #78568c;
+    border-right: 2px solid #4a3930;
     margin-right: 20px;
 }
 .curriculum .fila .proyecto{ /**/
-    border-left: 2px solid #78568c;
+    border-left: 2px solid #4a3930;
     margin-left: 20px;
 }
 .curriculum .fila .proyecto img{
@@ -443,7 +443,7 @@ html{
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #78568c;
+    background-color: #4a3930;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -455,14 +455,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #785494;
+    background-color: #4a3930;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .proyecto .conectord{ /**/
     height: 2px;
-    background-color: #785494;
+    background-color: #4a3930;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -474,14 +474,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #785494;
+    background-color: #4a3930;
     float: left;
     position: relative;
     bottom: 4px;
 }
 /* SECCION CERTIFICACIONES*/
 .certificaciones{
-    background-color: #79548a;
+    background-color: #f6f0e4;
     color: #131517;
     padding: 50px 20px;
 }
@@ -567,8 +567,7 @@ html{
 
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(img/contact_bg.png);
-    background-color: #e8ccf4;
+    background-color: #956f58;
     color: #131517;
     padding: 50px 0;
 }
@@ -593,7 +592,7 @@ html{
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #b9abc4;
+    background-color: #d8d8d8;
     color: #131517;
     font-size: 18px;
 }
@@ -616,7 +615,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #785494;
+    background-color: #4a3930;
     z-index: -1;
     transition: 1s;
 }
@@ -627,7 +626,7 @@ html{
 /* SECCION FOOTER */
 
 footer{
-    background-color: #b9abc4;
+    background-color: #f6f0e4;
     color: #131517;
     padding: 50px 0 30px 0;
     position: relative;
@@ -639,7 +638,7 @@ footer .arriba {
     margin: 0 auto;
     width: 50px;
     height: 50px;
-    background-color: #785494;
+    background-color: #956f58;
     color: #131517;
     border-radius: 50%;
     font-size: 18px;
@@ -660,7 +659,7 @@ footer .pie .contact .red{
 }
 footer .pie .contact .red i{
     margin-right: 5px;
-    color:#785494
+    color:#956f58
 }
 footer .pie .contact .dato{
     font-size: 13px;
@@ -679,7 +678,7 @@ footer .redes a{
     transition: .3s;
 }
 footer .redes a:hover{
-    background-color: #79548a;
+    background-color: #956f58;
 }
 
 /* SECCION RESPONSIVE*/
@@ -695,14 +694,14 @@ footer .redes a:hover{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #b9abc4;
+        background-color: #baacac;
         width: 180px;
     }
     nav.responsive ul{
         display: block !important;
     }
     nav.responsive ul li{
-        border-bottom: 1px solid #79548a;
+        border-bottom: 1px solid #4a3930;
         padding: 10px 0;
     }
 }

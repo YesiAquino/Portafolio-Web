@@ -707,6 +707,19 @@ footer .redes a:hover{
         border-bottom: 1px solid #4a3930;
         padding: 10px 0;
     }
+
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum.fila .derecha{
+        margin-left: 20px;
+    }
+    .curriculum .fila .item{
+      
+    }
 }
 @media screen and (max-width:700px){
     h2{
@@ -741,15 +754,7 @@ footer .redes a:hover{
         width: 80%;
     }
 
-    .curriculum .fila{
-        display: block;
-    }
-    .curriculum .fila .col{
-        width: 90%;
-    }
-    .curriculum.fila .derecha{
-        margin-left: 20px;
-    }
+    
 
     .certificaciones .galeria{
         display: block;
